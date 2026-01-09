@@ -55,7 +55,7 @@ nav{
 
 #banner{
     
-    background-image: linear-gradient(to bottom, #13181e15, #47a3ff3e), url("../images/hero-bg.png");
+    background-image: linear-gradient(to bottom, #13181e15, #1a1b1d1d), url("../images/hero-bg.png");
     max-width: 1600px;
     height: 674px;
 }
