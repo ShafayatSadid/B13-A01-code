@@ -236,6 +236,7 @@ nav{
     width: 1360px;
     height: 384px;
     background-color: #F7F6F2;
+    border-radius: 12px;
 }
 
 .main-card h2{
@@ -262,7 +263,49 @@ nav{
     margin-bottom: 16px;
 }
 
-.fa-solid2{
-    margin-top: 1px;
+footer{
+    text-align: center;
+    margin-top: 120px;
+    max-width: 1600px;
+    height: 348px;
+    background-color: #001931;
 }
 
+.footer-section1{
+    display: flex;
+}
+
+.footer-logo{
+    margin: 120px 1001px 84px 120px;
+}
+
+.social-links h3{
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+    margin-top: 120px;
+    margin-bottom: 16px;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+}
+
+.link{
+    color: #ffffff;
+    font-size: 20px;
+}
+
+footer hr{
+    width: 1340px;
+    margin: 0 auto;
+    border: 1px solid rgba(44, 42, 42, 0.841);
+}
+
+.footer-section2 p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    margin-top: 30px;
+}
