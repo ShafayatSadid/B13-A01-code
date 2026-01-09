@@ -227,4 +227,42 @@ nav{
     margin-left: 6px;
 }
 
+#ready-section{
+    display: flex;
+    justify-content: center;
+}
+.main-card{
+    text-align: center;
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+}
+
+.main-card h2{
+    font-size: 40px;
+    color: #001931;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.main-card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.main-card button{
+    padding:16px;
+    color: #ffffff;
+    background-color: #469165;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.fa-solid2{
+    margin-top: 1px;
+}
 
