@@ -64,12 +64,31 @@ nav{
     padding: 115px 120px 179px 120px;
 }
 
-.btn1{
-    padding: 8px 12px;
-    color: #469165;
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 229px;
+    height: 35px;
+    margin: 0 auto;
+    /* padding: 8px 12px; */
     background-color: #ffffff;
     border-radius: 1000px;
+    
+    border: none;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #30B868;
+    margin-right: 6px;
+    border: 6px solid #cde4d6;
+}
+.btn1{
+    color: #469165;
     font-size: 16px;
+    background: transparent;
     border: none;
 }
 
