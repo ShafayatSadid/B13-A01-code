@@ -43,7 +43,7 @@ nav{
     margin:34px 300px 34px 0;
 }
 
-.button{
+.button1{
     padding: 12px 16px;
     color: #ffffff;
     background-color: #469165;
@@ -74,7 +74,7 @@ nav{
     /* padding: 8px 12px; */
     background-color: #ffffff;
     border-radius: 1000px;
-    
+    cursor: pointer;
     border: none;
 }
 .circle{
@@ -85,7 +85,7 @@ nav{
     margin-right: 6px;
     border: 6px solid #cde4d6;
 }
-.btn1{
+.button2{
     color: #469165;
     font-size: 16px;
     background: transparent;
@@ -102,7 +102,7 @@ nav{
     line-height: 24px;
 }
 
-.btn2{
+.button3{
     padding:16px;
     color: #ffffff;
     background-color: #469165;
@@ -112,7 +112,7 @@ nav{
     border: none;
 }
 
-.btn3{
+.button4{
     padding:16px;
     color: #ffffff;
     font-size: 16px;
@@ -253,7 +253,7 @@ nav{
     margin-bottom: 24px;
 }
 
-.main-card button{
+.button5{
     padding:16px;
     color: #ffffff;
     background-color: #469165;
@@ -290,6 +290,7 @@ footer{
 .links{
     display: flex;
     gap: 16px;
+    cursor: pointer;
 }
 
 .link{
@@ -308,4 +309,12 @@ footer hr{
     line-height: 24px;
     color: #FAFAFA;
     margin-top: 30px;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.button:hover{
+    color: #F95555;
 }
