@@ -103,6 +103,11 @@ nav{
     line-height: 24px;
 }
 
+.btn-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 .button3{
     padding:16px;
     color: #ffffff;
